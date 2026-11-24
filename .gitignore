@@ -1,1 +1,13 @@
 venv/
+structure-output-slm/dataset2
+structure-output-slm/dataset3
+structure-output-slm/dataset4
+structure-output-slm/dataset5
+structure-output-slm/dataset6
+structure-output-slm/dataset7
+structure-output-slm/dataset8
+structure-output-slm/dataset9
+structure-output-slm/dataset_audit.json
+structure-output-slm/dataset_inspection.json
+structure-output-slm/quality_audit_report.json
+structure-output-slm/quality_audit_summary.txt
