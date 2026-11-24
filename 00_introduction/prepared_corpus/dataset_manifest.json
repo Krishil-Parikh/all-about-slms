@@ -1,0 +1,19 @@
+{
+  "dataset_name": "slm_learning_synthetic_corpus",
+  "description": "Synthetic educational corpus for learning data preparation.",
+  "seed": 42,
+  "requested_split_ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "counts": {
+    "raw_documents": 12,
+    "after_exact_deduplication": 11,
+    "after_quality_filtering": 0,
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "note": "Synthetic demonstration data only."
+}
