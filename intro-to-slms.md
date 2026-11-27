@@ -11,8 +11,8 @@
 
 <!-- Update the numbers in this badge as lessons are completed -->
 <p align="center">
-  <img src="https://img.shields.io/badge/progress-1%20%2F%2057%20lessons-a78bfa?style=flat-square" />
-  <img src="https://img.shields.io/badge/current%20module-00%20·%20Introduction-22d3ee?style=flat-square" />
+  <img src="https://img.shields.io/badge/progress-8%20%2F%2062%20lessons-a78bfa?style=flat-square" />
+  <img src="https://img.shields.io/badge/current%20module-01%20·%20Tokenization-22d3ee?style=flat-square" />
   <img src="https://img.shields.io/badge/weights-randomly%20initialized-1e1748?style=flat-square" />
 </p>
 
@@ -768,20 +768,27 @@ flowchart TB
     end
     F1 --> F2
 
+    classDef done fill:#7c3aed,stroke:#c4b5fd,color:#ffffff,font-weight:bold
     classDef now fill:#22d3ee,stroke:#0891b2,color:#0b1020,font-weight:bold
     classDef todo fill:#1e1b4b,stroke:#6366f1,color:#c7d2fe
-    class M0 now
-    class M1,M2,M3,M4,M5,M6,M7,M8,M9 todo
+    class M0 done
+    class M1 now
+    class M2,M3,M4,M5,M6,M7,M8,M9 todo
 ```
 
-<sub>🩵 In progress &nbsp;·&nbsp; 🟪 Up next</sub>
+<sub>💜 Complete &nbsp;·&nbsp; 🩵 In progress &nbsp;·&nbsp; 🟪 Up next</sub>
 
 <details open>
-<summary><b>🩵 00 — Introduction to SLMs</b> &nbsp;<code>1 / 3</code></summary>
+<summary><b>✅ 00 — Introduction to SLMs</b> &nbsp;<code>8 / 8</code> &nbsp;·&nbsp; <a href="00_introduction/">notebooks</a></summary>
 
-- [x] What is an SLM?
-- [ ] SLM training lifecycle
-- [ ] Anatomy of an SLM
+- [x] [What is an SLM?](00_introduction/00_what_is_an_slm.ipynb)
+- [x] [Anatomy of an SLM](00_introduction/01_anatomy_of_an_slm.ipynb)
+- [x] [Tokenization: BPE from scratch](00_introduction/02_tokenization.ipynb)
+- [x] [Training data for SLMs](00_introduction/03_training_data_for_slms.ipynb)
+- [x] [From text to training sequences](00_introduction/04_from_text_to_training_sequences.ipynb)
+- [x] [Next-token prediction & the LM objective](00_introduction/05_next_token_prediction_and_language_modeling_objective.ipynb)
+- [x] [A tiny language model with PyTorch](00_introduction/06_building_a_tiny_language_model_with_pytorch.ipynb)
+- [x] [The SLM training lifecycle, end to end](00_introduction/07_the_slm_training_lifecycle_end_to_end.ipynb)
 
 </details>
 

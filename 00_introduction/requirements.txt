@@ -1,0 +1,8 @@
+# Module 00 notebooks
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+jupyterlab>=4.0
+
+# Only needed for 06_building_a_tiny_language_model_with_pytorch.ipynb
+torch>=2.2

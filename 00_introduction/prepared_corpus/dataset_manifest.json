@@ -10,10 +10,10 @@
   "counts": {
     "raw_documents": 12,
     "after_exact_deduplication": 11,
-    "after_quality_filtering": 0,
-    "train": 0,
-    "validation": 0,
-    "test": 0
+    "after_quality_filtering": 9,
+    "train": 7,
+    "validation": 1,
+    "test": 1
   },
   "note": "Synthetic demonstration data only."
 }

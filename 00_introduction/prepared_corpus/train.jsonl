@@ -1,0 +1,7 @@
+{"doc_id": "d10", "source": "technology", "license": "synthetic_demo", "language": "en", "text": "A neural network is made from layers of connected computational units that transform numerical inputs."}
+{"doc_id": "d02", "source": "education", "license": "synthetic_demo", "language": "en", "text": "Tokenization converts text into smaller units called tokens. A tokenizer maps these units to integer IDs."}
+{"doc_id": "d08", "source": "noise", "license": "synthetic_demo", "language": "en", "text": "click here click here click here click here click here"}
+{"doc_id": "d01", "source": "education", "license": "synthetic_demo", "language": "en", "text": "A language model learns patterns in text by predicting tokens from their preceding context."}
+{"doc_id": "d12", "source": "education", "license": "synthetic_demo", "language": "en", "text": "The training corpus should be split by document before creating overlapping training sequences."}
+{"doc_id": "d03", "source": "technology", "license": "synthetic_demo", "language": "en", "text": "Neural Networks Neural networks contain layers of connected computational units."}
+{"doc_id": "d07", "source": "web", "license": "synthetic_demo", "language": "en", "text": "Visit https://example.com for more information about this demonstration."}
